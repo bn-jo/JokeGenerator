@@ -21,7 +21,7 @@ async function generateJoke() {
 
     var msg = new SpeechSynthesisUtterance();
     msg.text = data.joke;
-
+msg.lang = 'en';
     msg.rate = 0.7;
     window.speechSynthesis.speak(msg);
 }
