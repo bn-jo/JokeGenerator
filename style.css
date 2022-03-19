@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-    background-image: url(/Robot.gif);
+    background-image: url('https://s1.gifyu.com/images/Robot.gif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
